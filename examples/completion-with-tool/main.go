@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/nuke2k19/go-openai"
 	"os"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/jsonschema"
+	"github.com/nuke2k19/go-openai/jsonschema"
 )
 
 func main() {

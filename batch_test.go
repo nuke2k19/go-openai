@@ -3,12 +3,12 @@ package openai_test
 import (
 	"context"
 	"fmt"
+	"github.com/nuke2k19/go-openai"
 	"net/http"
 	"reflect"
 	"testing"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	"github.com/nuke2k19/go-openai/internal/test/checks"
 )
 
 func TestUploadBatchFile(t *testing.T) {

@@ -4,9 +4,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/nuke2k19/go-openai"
 	"os"
-
-	"github.com/sashabaranov/go-openai"
 )
 
 func main() {

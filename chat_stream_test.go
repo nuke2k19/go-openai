@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/nuke2k19/go-openai"
 	"io"
 	"net/http"
 	"strconv"
 	"testing"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	"github.com/nuke2k19/go-openai/internal/test/checks"
 )
 
 func TestChatCompletionsStreamWrongModel(t *testing.T) {

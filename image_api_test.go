@@ -4,14 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/nuke2k19/go-openai"
 	"io"
 	"net/http"
 	"os"
 	"testing"
 	"time"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	"github.com/nuke2k19/go-openai/internal/test/checks"
 )
 
 func TestImages(t *testing.T) {

@@ -4,12 +4,12 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/nuke2k19/go-openai"
 	"net/http"
 	"testing"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	"github.com/nuke2k19/go-openai/internal/test"
+	"github.com/nuke2k19/go-openai/internal/test/checks"
 )
 
 var emptyStr = ""
