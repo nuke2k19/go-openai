@@ -116,3 +116,7 @@ func (stream *streamReader[T]) unmarshalError() (errResp *ErrorResponse) {
 func (stream *streamReader[T]) Close() error {
 	return stream.response.Body.Close()
 }
+
+func (stream *streamReader[T]) GetReader() *bufio.Reader {
+	return stream.reader
+}

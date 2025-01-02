@@ -277,8 +277,9 @@ const (
 )
 
 type Tool struct {
-	Type     ToolType            `json:"type"`
-	Function *FunctionDefinition `json:"function,omitempty"`
+	Type      ToolType            `json:"type"`
+	Function  *FunctionDefinition `json:"function,omitempty"`
+	WebSearch *WebSearch          `json:"web_search,omitempty"`
 }
 
 type ToolChoice struct {
@@ -288,6 +289,10 @@ type ToolChoice struct {
 
 type ToolFunction struct {
 	Name string `json:"name"`
+}
+
+type WebSearch struct {
+	Enable bool `json:"enable"`
 }
 
 type FunctionDefinition struct {
